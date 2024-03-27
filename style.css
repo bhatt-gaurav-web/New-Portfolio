@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.nav{
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    background-color: #586F7C;
+}
+.icon{
+    cursor: pointer;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 8px;
+}
+.icon:hover{
+    background-color: white;
+    color: black;
+}
+.name{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.dev{
+    font-size:2rem;
+    color: blue;
+    font-weight: 500;
+    transition: 1s;
+    display: flex;
+    gap: 10px;
+}
+.i{
+    color: black;
+}
+.hom{
+    position: relative;
+    margin-top: 9rem;
+    margin-left: 2rem;
+    height: 100vh;
+}
+.my_name{
+    font-weight: 700;
+}
+.nav a{
+    text-decoration:none;
+    color: white;
+}
+.html{
+    background-image: url("html.webp");
+    height: 20rem;
+    width: 25rem;
+    background-size: 25rem 15rem;
+    position: relative;
+    left: 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.css{
+    background-image: url("CSS3_logo.svg.png");
+    height: 20rem;
+    width: 25rem;
+    background-size: 15rem;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.js{
+    background-image: url("img_js.png");
+    height: 20rem;
+    width: 25rem;
+    background-size: 13rem;
+    position: relative;
+    right: 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+
+}
+#sec2{
+    height: 100vh;
+}
+.names{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    gap: 12rem;
+    font-weight: 600;
+}
+.social{
+    display: flex;
+    justify-content:space-evenly
+}
+.social a{
+    color:white;
+    font-size: 2em;
+}
+.icons{
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 8px 9px 5px 9px;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0.2);
+}
+.lang{
+    transition: 1s;
+    color: white;
+}
+
+.facebook{
+    background-color: #316FF6;
+    border: 2px solid white;
+}
+.instagram{
+    background-color:rgb(218, 29, 92);
+    border: 2px solid white;
+}
+.github{
+    background-color: rgb(6, 6, 14);
+    border: 2px solid white;
+}
+.linkedin{
+    background-color: #0077b5;
+    border: 2px solid white;
+}
+#sec3{
+    height: 100vh;
+}
+.about-me{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+.contact{
+margin-top: 5vh;
+}
+.bottom-icon{
+    margin-top: 1rem;
+}
+.con-icons{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.con-icons i{
+    font-size: 2.5rem;
+}
